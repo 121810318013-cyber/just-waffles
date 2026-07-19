@@ -18,7 +18,7 @@ const teamMembers = [
     image: venkatImg,
   },
   {
-    name: "Vinod Achuthan",
+    name: "Vinod Achutan",
     role: "Co-Promoter & Advisor",
     desc: "An engineer and serial investor with extensive operations in F&B. Vinod operates multiple franchised store locations and guides brand development, corporate advisory boards, and expansion strategies.",
     image: vinodImg,
