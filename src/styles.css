@@ -57,8 +57,8 @@
 
   /* Brand Teal — #14C8C4 requested exact value + darker derived shade for text/contrast-safe use */
   --teal-500: #14C8C4; /* exact requested hex — accents, large surfaces, always with overlay/large-text */
-  --teal-600: #109C99; /* hover state */
-  --teal-700: #0C7876; /* text-safe dark shade — use for white-text backgrounds and teal text on light bg */
+  --teal-600: #14C8C4; /* hover state */
+  --teal-700: #14C8C4; /* text-safe dark shade — use for white-text backgrounds and teal text on light bg */
 
   --bg-primary: #FCFBF8;
   --bg-secondary: #F7F5F2;
