@@ -194,7 +194,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-10 pointer-events-none block lg:hidden"
         style={{
           background:
-            "linear-gradient(180deg, rgba(12, 120, 118, 0.6) 0%, rgba(12, 120, 118, 0.3) 50%, rgba(12, 120, 118, 0.75) 100%)",
+            "linear-gradient(180deg, rgba(20, 200, 196, 0.6) 0%, rgba(20, 200, 196, 0.3) 50%, rgba(20, 200, 196, 0.75) 100%)",
         }}
       />
 
@@ -203,7 +203,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-10 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(12, 120, 118, 0.85) 0%, rgba(12, 120, 118, 0.6) 45%, rgba(12, 120, 118, 0.3) 75%, transparent 100%)",
+            "radial-gradient(ellipse at center, rgba(20, 200, 196, 0.85) 0%, rgba(20, 200, 196, 0.6) 45%, rgba(20, 200, 196, 0.3) 75%, transparent 100%)",
         }}
       />
 
@@ -212,7 +212,7 @@ export default function HeroSection() {
         className="absolute inset-0 z-10 pointer-events-none"
         style={{
           background:
-            "linear-gradient(180deg, rgba(12, 120, 118, 0.95) 0%, rgba(12, 120, 118, 0) 25%)",
+            "linear-gradient(180deg, rgba(20, 200, 196, 0.95) 0%, rgba(20, 200, 196, 0) 25%)",
         }}
       />
 
@@ -256,7 +256,7 @@ export default function HeroSection() {
                     ?.scrollIntoView({ behavior: "smooth", block: "start" });
                 }}
                 className="h-14 px-8 bg-white text-xs uppercase tracking-widest font-semibold transition-all duration-300 hover:bg-white/90 rounded-[8px] cursor-pointer"
-                style={{ color: "#0C7876" }}
+                style={{ color: "#14C8C4" }}
               >
                 Explore Menu
               </button>
@@ -268,7 +268,7 @@ export default function HeroSection() {
                     ?.scrollIntoView({ behavior: "smooth", block: "start" });
                 }}
                 className="h-14 px-8 bg-transparent text-white border border-white text-xs uppercase tracking-widest font-semibold transition-all duration-300 hover:bg-white rounded-[8px] cursor-pointer"
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#0C7876")}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#14C8C4")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#ffffff")}
               >
                 Find Us
