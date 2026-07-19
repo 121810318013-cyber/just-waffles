@@ -236,7 +236,7 @@ export default function HeroSection() {
 
             {/* Description (max 3 lines, white text) */}
             <motion.p
-              className="text-[14px] sm:text-[15px] leading-relaxed text-white/90 font-sans font-light mb-8 text-center"
+              className="text-[14px] sm:text-[15px] leading-relaxed text-white font-sans font-semibold mb-8 text-center"
               variants={fadeUpVariants}
             >
               Handcrafted eggless waffles prepared with carefully selected ingredients, premium
