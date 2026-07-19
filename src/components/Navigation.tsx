@@ -192,17 +192,16 @@ export default function Navigation() {
   return (
     <>
       <motion.nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={
           scrolled
-            ? "bg-brand-teal-dark py-3 shadow-md"
-            : "bg-transparent py-6"
-        }`}
+            ? "fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-brand-teal-dark py-3 shadow-md"
+            : "fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-transparent py-6"
+        }
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="max-w-7xl mx-auto px-8 md:px-12 flex justify-between items-center">
-          {/* Logo */}
           
             href="#"
             onClick={(e) => {
@@ -214,13 +213,14 @@ export default function Navigation() {
             <img
               src="/logo.png"
               alt="Just Waffles Logo"
-              className={`w-auto object-contain filter drop-shadow-md transition-all duration-500 ${
-                scrolled ? "h-16 md:h-20" : "h-28 md:h-36"
-              }`}
+              className={
+                scrolled
+                  ? "w-auto object-contain filter drop-shadow-md transition-all duration-500 h-16 md:h-20"
+                  : "w-auto object-contain filter drop-shadow-md transition-all duration-500 h-28 md:h-36"
+              }
             />
           </a>
 
-          {/* Desktop links */}
           <div className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
               <button
@@ -242,7 +242,6 @@ export default function Navigation() {
             </a>
           </div>
 
-          {/* Mobile toggle */}
           <button
             className="md:hidden p-1 transition-colors duration-300 text-white"
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -253,7 +252,6 @@ export default function Navigation() {
         </div>
       </motion.nav>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
